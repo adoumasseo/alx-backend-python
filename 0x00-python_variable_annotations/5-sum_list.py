@@ -2,9 +2,6 @@
 """Sum of list element but with annotations"""
 
 
-from ast import For
-
-
 def sum_list(input_list: list[float]) -> float:
     """Take a list and return the sum of his elt"""
     sum: float = 0
