@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-'''Task 5's module.
-'''
+"""Sum of list element but with annotations"""
 from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    '''Computes the sum of a list of floating-point numbers.
-    '''
-    return float(sum(input_list))
-    
+    """Take a list and return the sum of his elt"""
+    sum: float = 0
+    for item in input_list:
+        sum += item
+    return sum
