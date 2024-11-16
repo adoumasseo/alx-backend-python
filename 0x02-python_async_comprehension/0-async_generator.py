@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 '''first taks module'''
-import random
 import asyncio
+import random
 from typing import AsyncGenerator
 
 
