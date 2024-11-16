@@ -7,5 +7,6 @@ from typing import AsyncGenerator
 
 async def async_generator() -> AsyncGenerator[float, None]:
     '''Yield 10 times random float'''
-    for i in range(10):
-        yield random.random()
+    for _ in range(10):
+        await asyncio.sleep(1)
+        yield random.random() * 10
